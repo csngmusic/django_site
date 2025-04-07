@@ -1,0 +1,5 @@
+.venv/
+.ssh/
+__pycache__/
+
+db.sqlite3

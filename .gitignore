@@ -2,4 +2,6 @@
 .ssh/
 __pycache__/
 
+mediafiles/
+
 db.sqlite3

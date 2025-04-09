@@ -1,17 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>List of Stocks</title>
-</head>
-<body>
-    <table>
+{% extends 'base.html' %}
+{% block content %}
+    <table class="table">
         <thead>
             <tr>
-                <th>Logo</th>
-                <th>Ticker</th>
-                <th>Company</th>
-                <th>Last close price</th>
+                <th>Логотип</th>
+                <th>Тикер</th>
+                <th>Компания</th>
+                <th>Последняя цена</th>
             </tr>
         </thead>
         <tbody>
@@ -29,5 +24,4 @@
         {% endfor %}
         </tbody>
     </table>
-</body>
-</html>
+{% endblock %}
